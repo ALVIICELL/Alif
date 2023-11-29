@@ -206,7 +206,7 @@ run_ei() {
       # Add your message here for when the VPS doesn't have permission
 clear
       echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | lolcat
-      echo -e "                 • Rerechan Store •                 "
+      echo -e "                 • Alvi tunnel •                 "
       echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | lolcat
       echo -e ""
       echo -e "\e[93m Nama\e[32;1m   : $nama "
