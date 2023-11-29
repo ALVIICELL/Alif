@@ -239,7 +239,7 @@ cd /usr/bin
 rm -fr menu
 rm -fr /usr/sbin/menu
 rm -fr /usr/local/bin/menu
-wget https://raw.githubusercontent.com/myridwan/alif/ipuk/menu.zip
+wget https://raw.githubusercontent.com/ALVIICELL/Alif/ipuk/menu.zip
 unzip menu.zip
 chmod +x *
 rm -fr menu.zip
