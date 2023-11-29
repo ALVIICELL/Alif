@@ -176,7 +176,7 @@ run_ei() {
   sysctl -w net.ipv6.conf.default.disable_ipv6=1 >/dev/null 2>&1
   
   # Link izin IP VPS
-  url_izin='https://kytvpn.xcodehoster.com/izin"'
+  url_izin='https://raw.githubusercontent.com/ALVIICELL/permission/main/ipmini'
 
   # Mendapatkan IP VPS saat ini
   ip_vps=$(curl -s ifconfig.me)
@@ -411,10 +411,7 @@ echo "/bin/false" >> /etc/shells
 echo "/usr/sbin/nologin" >> /etc/shells
 rm -fr /etc/issue.net
 cat> /etc/issue.net << END
-<br>
-<font color="blue"><b>===============================</br></font><br>
-<font color="red"><b>********  Funny VPN  ********</b></font><br>
-<font color="blue"><b>===============================</br></font><br>
+<br<b><h2 style="text-align:center";><font color='aqua'>A</font><font color='aqua'>L</font><font color='aqua'>V</font><font color='aqua'>I</font><font color='#a8a6ab'> </font><font color='#a8a6ab'></font><font color='#a8a6ab'>CELL</font><font color='#00FF1D'> </font><font color='#FFCC00'>𝐓</font><font color='#FFCC00'>𝐮</font><font color='#FFCC00'>𝐧</font><font color='#FFCC00'>𝐧</font><font color='#FFCC00'>𝐞</font><font color='#FFCC00'>𝐥</font><font color='#FFCC00'></font></b><br><br><b><h2 style="text-align:center";><font <font color="white">Support Me: t.me/Alvi_cell</font><br><font color="white">Wa: https://wa.me/+6282183496832</font><br>
 END
 /etc/init.d/dropbear restart
 echo "/bin/false" >> /etc/shells
