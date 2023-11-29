@@ -176,7 +176,7 @@ run_ei() {
   sysctl -w net.ipv6.conf.default.disable_ipv6=1 >/dev/null 2>&1
   
   # Link izin IP VPS
-  url_izin='https://raw.githubusercontent.com/ALVIICELL/permission/main/ipmini'
+  url_izin="https://raw.githubusercontent.com/ALVIICELL/permission/main/ipmini"
 
   # Mendapatkan IP VPS saat ini
   ip_vps=$(curl -s ifconfig.me)
@@ -221,7 +221,7 @@ clear
       echo -e "${red} VPS Anda Tidak Izinkan \e[32;1m "
       echo -e "${red} Contact Admin Untuk Perizinan \e[32;1m" | lolcat
       echo -e ""
-      echo -e "\e[93m Telegram\e[32;1m : https://t.me/Rerechan02"
+      echo -e "\e[93m Telegram\e[32;1m : https://t.me/Alvi_cell"
       echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | lolcat
       echo -e ""
       exit 0
