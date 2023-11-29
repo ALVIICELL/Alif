@@ -176,15 +176,15 @@ run_ei() {
   sysctl -w net.ipv6.conf.default.disable_ipv6=1 >/dev/null 2>&1
   
   # Link izin IP VPS
-  url_izin="https://raw.githubusercontent.com/ALVIICELL/permission/main/ipmini"
+  url_izin='https://raw.githubusercontent.com/ALVIICELL/permission/main/ipmini'
 
   # Mendapatkan IP VPS saat ini
   ip_vps=$(curl -s ifconfig.me)
 
-  # Mendapatkan isi file izin.txt dari URL
+  # Mendapatkan isi file ipmini dari URL
   izin=$(curl -s "$url_izin")
 
-  # Memeriksa apakah konten izin.txt berhasil didapatkan
+  # Memeriksa apakah konten ipmini berhasil didapatkan
   if [[ -n "$izin" ]]; then
     while IFS= read -r line; do
       # Memisahkan nama VPS, IP VPS, dan tanggal kadaluwarsa
@@ -227,7 +227,7 @@ clear
       exit 0
     fi
   else
-    echo "Konten izin.txt tidak berhasil didapatkan dari URL"
+    echo "Konten ipmini tidak berhasil didapatkan dari URL"
     exit 0
   fi
   clear
