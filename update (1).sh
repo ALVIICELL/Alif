@@ -30,7 +30,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://raw.githubusercontent.com/ALVIICELL/vip/main/menu/menu.zip
+    wget https://raw.githubusercontent.com/ALVIICELL/Alif/ipuk/menu.zip
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
