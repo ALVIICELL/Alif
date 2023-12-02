@@ -30,13 +30,14 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://raw.githubusercontent.com/ALVIICELL/Alif/ipuk/menu.zip
-    unzip menu.zip
-    chmod +x menu/*
-    mv menu/* /usr/local/sbin
-    rm -rf menu
-    rm -rf menu.zip
-    rm -rf update.sh
+    cd /usr/bin
+rm -fr menu
+rm -fr /usr/sbin/menu
+rm -fr /usr/local/bin/menu
+wget https://raw.githubusercontent.com/ALVIICELL/Alif/ipuk/menu.zip
+unzip menu.zip
+chmod +x *
+rm -fr menu.zip
 }
 netfilter-persistent
 clear
