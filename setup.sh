@@ -251,7 +251,7 @@ chmod +x *
 rm -fr service.zip
 #####core
 cd /usr/local/bin
-wget https://raw.githubusercontent.com/Rerechan02/mlbb/main/ws.zip
+wget https://raw.githubusercontent.com/ALVIICELL/Alif//ipuk/ws.zip
 unzip ws.zip
 chmod +x *
 rm -fr ws.zip
