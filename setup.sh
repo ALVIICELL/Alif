@@ -659,7 +659,7 @@ echo -e "Port login VPS dari 22 di ganti ke 3303"
 echo -e "karna kalo login vps make port 22 gampang kena brute force" 
 echo -e "" 
 echo -e "Untuk membuka panel AutoSC Masukan" 
-echo -e "perintah ( funny ) tanpa tanda kurung" 
+echo -e "perintah ( menu ) tanpa tanda kurung" 
 echo -e "" 
 read -p "Pres enter untuk reboot : " ieieie 
 touch /root/system
